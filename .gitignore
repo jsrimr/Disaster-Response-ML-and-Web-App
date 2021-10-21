@@ -1,0 +1,5 @@
+.vscode/
+Disaster_Response_Pipeline
+*.db
+*.pkl
+__pycache__/
