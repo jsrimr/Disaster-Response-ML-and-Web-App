@@ -7,7 +7,6 @@
 
 ## Project Overview <a name="Project-Overview"></a>
 The Disaster Response Pipeline project is part of the Udacity Data Science Nano degree in partnership with Figure Eight. This project builds a natural language processing (NLP) pipeline that categorizes disaster messages into different categories. The project also provides a web application for the visualization.
-s
 
 
 **The goal** of this project is to build an NLP pipeline that processes the text data and performs multi-output classification on 36 categories. Finally, a web app built from Flask will display some visualization about data, take in new messages and classify their categories.
