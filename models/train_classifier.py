@@ -100,7 +100,9 @@ def build_model(model_filepath="classifier.pkl", X_train=None, Y_train=None):
             ('tfidf', TfidfTransformer()),
             ('clf', MultiOutputClassifier(RandomForestClassifier()))
         ])
-        
+        params = {'clf__estimator__n_estimators':[100,200],'clf__estimator__max_depth':[5]}
+        pipeline = GridSearchCV(pipeline, param_grid=params, cv=3, verbose=3)
+
         print('Training model...')
         pipeline.fit(X_train, Y_train)
 

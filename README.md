@@ -41,6 +41,9 @@ Figure 1. Input field takes in new messages.
 ![example](img/result.png)
 Figure 2. An example message _"Water is flooding "_ is classified in the following categories: request, medical help.
 
+![example](img/category_distribution.png)
+Figure 3. Distribution of 36 classes. The data is clearly imbalanced, and 'Related' is the highest.
+
 
 ## Instructions <a name="How-To-Run-This-Project"></a>
 ### 1. Download the files or clone this repository
